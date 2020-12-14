@@ -290,6 +290,7 @@ h1, .prof {
     }
 
     .header ul.slide {
+        display: absolute;
         opacity: 1;
         transform: translateX(0);
     }
