@@ -12,7 +12,6 @@ html {
 }
 body {
     font-family: 'Quicksand', sans-serif;
-    position:fixed;
 }
 .top {
     width: 100%;
@@ -212,7 +211,7 @@ h1, .prof {
     }
 
     .header ul {
-        position: absolute;
+        position: fixed;
         flex-direction: column;
         background-image: linear-gradient(to bottom right, rgb(135, 219, 102), rgba(175, 255, 192, 0.699)); 
         top: 84px;
