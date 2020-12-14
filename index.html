@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/portofolio.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="top">
+            <div class="header">
+                <div class="nav-main">
+                        <a  href="">MAIN</a>
+                </div>
+                <ul class="nav-expand">
+                    <li><a  href="">ZASYA</a></li>
+                    <li><a  href="">PRODUCT</a></li>
+                    <li><a  href="">TESTING</a></li>
+                    <li><a  href="">TEST</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <input type="checkbox"/>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="container"> 
+                <div class="photos">
+                    <img src="img/zasya.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p class="great">HALO SEMUANYA, SAYA</p>
+                    <H1>ZASYA</H1>
+                    <H1>EKA</H1>
+                    <p class="prof">Mahasiswa IT</p>
+                    <p class="summ">Seorang pembelajar yang memiliki ketertarikan di bidang sysAdmin, networking, dan robotik. Menerima bimbingan belajar terkait pengenalan dunia IT khususnya pada anak-anak.</p>
+                    <div class="contact">
+                        <div class="icon">
+                               <img class="calendar" src="img/calendar.png" alt="tanggal lahir">
+                               <img class="phone" src="img/phone-call.png" alt="">
+                               <img class="email" src="img/email.png" alt="">
+                               <img class="home" src="img/home.png" alt="">
+                        </div>
+                        <div class="icon-detail">
+                            <p>18 September, 2000</p>
+                            <p>+6281238824262</p>
+                            <p>zasyasatya@gmail.com</p>
+                            <p>Pemaron, Singaraja</p>
+                        </div>
+                    </div>
+                    <div class="sosmed">
+                        <ul>
+                            <li><a href="https://www.instagram.com/zasya_eka/" target="_blank"><img class="ig" src="img/instagram.png" alt="instagram"></a></li>
+                            <li><a href="https://www.facebook.com/zasya.nugraha" target="_blank"><img class="fb" src="img/facebook.png" alt="facebook"></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=6281238824262" target="_blank"><img class="wa" src="img/whatsapp.png" alt="facebook"></a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom"></div>
+        <script>
+            const menu = document.querySelector('.menu-toggle input');
+            const nav = document.querySelector('.header ul');
+            menu.addEventListener('click', function() {
+                nav.classList.toggle('slide');
+            });
+        </script>
+</body>
+</html>
