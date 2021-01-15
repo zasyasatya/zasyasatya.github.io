@@ -26,6 +26,7 @@ body {
     font-weight: bold;
     display: flex;
     align-items: center;
+    position:absolute;
 }
 
 .header a:hover {
